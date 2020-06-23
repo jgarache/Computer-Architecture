@@ -1,0 +1,12 @@
+For our first test we decided to work with the sample.dump as we had a .s and .output provided for us.
+This gave us a good test for general functionality and formatting with no memory testing.
+
+Testcase1 was used to check if unsupported functions were rejected.
+
+Testcase2 was then used to test our sw and lw functionality in a loop where the addresses were dependant on previous loads.
+
+Testcase3 was used to check if memory locations not offset by words were rejected.
+
+Testcase4 was used to check if invalid memory locations were rejected ie no allocation.
+
+Testcase5 was the most extensive test case in which we used every supported function and checked if the inputs, outputs, and behaviors were expected.
